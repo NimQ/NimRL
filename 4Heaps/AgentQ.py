@@ -18,9 +18,9 @@ class Agent():
         self.gamma = gamma
         self.epsilon = epsilon
 
-        self.t = 0
+        self.t = 0 # number of optimal moves made
         self.f = 0
-        self.moves = 0
+        self.moves = 0 # optimal move was possible
 
     def readBoard(self, board):
         """ read board and return the state s"""
