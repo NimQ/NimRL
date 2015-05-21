@@ -1,6 +1,6 @@
 import numpy as np
 import random as rnd
-from pylab import*
+
 from SA4 import SA
 from AgentQ import Agent
 
