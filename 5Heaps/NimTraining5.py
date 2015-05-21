@@ -194,7 +194,7 @@ for y in range(len(a)):
                             board = [1,3,5,7,9]
                     
                     episode.append(j)
-                    wins.append(a1.won/(x-started))
+                    wins.append(a1.won/(started))
                     optmoves.append(a1.t/a1.moves)
 
 
