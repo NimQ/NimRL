@@ -225,7 +225,7 @@ for j in range(n):
         ###### Play SARSA against SMART ######
 
         epslimit = 10000  # Increase Epsilon over time
-        a1.epsilon += interval*(1-epsilon)/epslimit
+        a1.epsilon += interval*(1-epsilon1)/epslimit
         
         x = 250 #
 
@@ -256,7 +256,7 @@ for j in range(n):
                 ###### Play Q against SMART ######                
 
         epslimit = 10000  # increase epsilon for agent 2
-        a2.epsilon += interval*(1-epsilon)/epslimit
+        a2.epsilon += interval*(1-epsilon2)/epslimit
         x = 250 #
 
         a2.ngames = 0
