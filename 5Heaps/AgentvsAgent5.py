@@ -249,7 +249,7 @@ for j in range(n):
                         break
                 board = [1,3,5,7,9]
         episode.append(j)
-        wins1.append(a1.won/(x-started))
+        wins1.append(a1.won/(started))
         optmoves1.append(a1.t/a1.moves)
 
         
@@ -278,7 +278,7 @@ for j in range(n):
                         break
                 board = [1,3,5,7,9]
 
-        wins2.append(a2.won/(x-started))
+        wins2.append(a2.won/(started))
         optmoves2.append(a2.t/a2.moves)
 
 ####### Q vs SARSA TRINING ######
