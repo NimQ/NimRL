@@ -160,7 +160,7 @@ for y in range(len(a)):
             
             a1 = Agent(stac, alpha, gamma, epsilon) # initialise agent
             
-            n = 20000 # number of training games
+            n = 2000000 # number of training games
             
             rnd.seed(0)
             ########## Train A1 ########
@@ -172,7 +172,7 @@ for y in range(len(a)):
                 interval = 25
                 
                 if j % interval  == 0: # Increase Epsilon over time
-                    epslimit = 10000
+                    epslimit = 400000
                     a1.epsilon += interval*(1-epsilon)/epslimit
                     
                     x = 250 # Performance : play 100 games each 1000 episodes
